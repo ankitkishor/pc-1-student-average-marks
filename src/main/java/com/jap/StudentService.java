@@ -11,8 +11,17 @@ public class StudentService {
 
         //return the HashSet object
 
+        Set<Student> studentSet = new HashSet<>();
+        studentSet.add(new Student("Johny",21,467));
+        studentSet.add(new Student("Tim",34,455));
+        studentSet.add(new Student("Bob",23,456));
+        studentSet.add(new Student("William",45,478));
+        studentSet.add(new Student("Naruto",36,428));
+        studentSet.add(new Student("Sasuke",39,418));
+        return studentSet;
 
-        return null;
+
+
     }
 
 
