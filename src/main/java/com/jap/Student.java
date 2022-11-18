@@ -33,8 +33,21 @@ public class Student {
     }
 
     //complete the parameterized constructor
-    public Student(String name, int rollNo, int totalMarks) {
 
+
+    public Student(String name, int rollNo, int totalMarks) {
+        this.name = name;
+        this.rollNo = rollNo;
+        this.totalMarks = totalMarks;
+    }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "name='" + name + '\'' +
+                ", rollNo=" + rollNo +
+                ", totalMarks=" + totalMarks +
+                '}';
     }
 
 }
